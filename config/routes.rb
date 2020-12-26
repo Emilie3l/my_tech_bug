@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :bulletins
   get 'appointments/create'
   get 'appointments/new'
   get 'appointments/show'
